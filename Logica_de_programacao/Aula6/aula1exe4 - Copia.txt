@@ -1,6 +1,0 @@
-var numero = prompt("Digite  um numero entre 1 e 99");
-var mensagem= "Isso significa que o Agrela e Homossexual em " + numero + "paises"
-
-if (numero > 1) {
-    alert(mensagem);
-} 
