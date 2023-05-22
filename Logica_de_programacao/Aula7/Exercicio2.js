@@ -1,4 +1,4 @@
-var n1 =parseInt(prompt("Digite um numero"));
+var n1 = parseInt(prompt("Digite um numero"));
 var n2 = parseInt(prompt("Digite um numero"));
 var n3 = parseInt(prompt("Digite um numero"));
 var n4 = parseInt(prompt("Digite um numero"));
