@@ -20,6 +20,9 @@
             background-color: #fff;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
 
         /* Estilos para os inputs */
@@ -34,25 +37,26 @@
 
         /* Estilos para o botão */
         .container button {
-            display: block;
-            width: 100%;
+            display: inline-block;
+            width: calc(33.33% - 5px);
+            /* Distribui os botões igualmente na mesma linha */
             padding: 10px;
             background-color: #4CAF50;
             color: #fff;
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            margin-right: 5px;
         }
-        /* Estilos para o botão */
-        .container #btnAcao {
-            display: block;
-            width: 100%;
-            padding: 10px;
+
+        /* Estilos para o botão específico */
+        #btnAcao {
             background-color: #594caf;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
+        }
+
+        /* Estilos para o botão específico */
+        #btnMostrarNome {
+            background-color: #cee94b;
         }
 
         /* Estilo para centralizar o botão */
@@ -71,9 +75,11 @@
         <input type="text" id="number_two" placeholder="Valor 2">
         <input type="text" id="total" placeholder="Resultado">
 
-        <button onclick="exibirSoma()">Somar</button>
         <br>
+
+        <button onclick="exibirSoma()">Somar</button>
         <button id="btnAcao" onclick="valorAoQuadrado()">Quadrado</button>
+        <button id="btnMostrarNome" onclick="mostrarNome()">Mostrar Nome</button>
     </div>
 
 
