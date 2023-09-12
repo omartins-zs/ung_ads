@@ -42,3 +42,13 @@ a {
 a:hover {
     background-color: #6e6e6e;
 }
+
+.container {
+    width: 100%;
+
+    background-color: #343a40;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
