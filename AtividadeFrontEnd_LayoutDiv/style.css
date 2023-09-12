@@ -9,3 +9,13 @@
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+nav {
+    background-color: #333;
+    color: white;
+
+    /* Alinhado no centro - Comentado alinha a Esquerda  */
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
