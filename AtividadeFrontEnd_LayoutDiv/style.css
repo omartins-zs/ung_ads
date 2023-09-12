@@ -55,7 +55,7 @@ a:hover {
 
 .caixaGrande {
     width: 100%;
-    height: 500px;
+    height: 200px;
 
     margin: .5rem 0 .5rem 0;
     background-color: #000814;
@@ -63,7 +63,7 @@ a:hover {
 
 .caixaMedia {
     width: 100%;
-    height: 250px;
+    height: 100px;
 
     margin: .5rem 0 .5rem 0;
     background-color: #FFC300;
@@ -74,7 +74,7 @@ a:hover {
     display: flex;
 
     width: 100%;
-    height: 200px;
+    height: 670px;
 }
 
 .caixaPequena {
