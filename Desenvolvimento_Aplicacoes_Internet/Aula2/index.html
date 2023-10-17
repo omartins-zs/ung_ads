@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        section {
+            width: 1000px;
+            height: 200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h2 {
+            margin-top: 10px;
+        }
+        article {
+            height: 300px;
+            text-align: center;
+            margin: 20px auto;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        footer {
+            height: 100px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            margin: 10px;
+        }
+    </style>
+    <title>Escola Virtual</title>
+</head>
+<body>
+    <section>
+        <h2>Escola Virtual</h2>
+        <article>
+            <form>
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Nome do Aluno</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="dataNascimento">Data de Nascimento</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" required>
+
+                <label for="nomeMae">Nome da Mãe</label>
+                <input type="text" id="nomeMae" name="nomeMae" required>
+
+                <label for="nomePai">Nome do Pai</label>
+                <input type="text" id="nomePai" name="nomePai" required>
+
+                <label for="telefone">Telefone (com DDD e Ramal)</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </form>
+        </article>
+        <article>
+            <form>
+                <label for="serie">Série</label>
+                <select id="serie" name="serie">
+                    <option value="primeira">1ª Série</option>
+                    <option value="segunda">2ª Série</option>
+                    <option value="terceira">3ª Série</option>
+                </select>
+
+                <label>Turno</label>
+                <input type="radio" id="manha" name="turno" value="manha">
+                <label for="manha">Manhã</label>
+
+                <input type="radio" id="tarde" name="turno" value="tarde">
+                <label for="tarde">Tarde</label>
+
+                <input type="radio" id="noite" name="turno" value="noite">
+                <label for="noite">Noite</label>
+
+                <label>Atividades Extracurriculares</label>
+                <input type="checkbox" id="esportes" name="atividades" value="esportes">
+                <label for="esportes">Esportes</label>
+
+                <input type="checkbox" id="musica" name="atividades" value="musica">
+                <label for="musica">Música</label>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <button type="submit">Enviar Formulário</button>
+        <button type="reset">Limpar Formulário</button>
+    </footer>
+</body>
+</html>
